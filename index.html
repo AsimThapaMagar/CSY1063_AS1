@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" type= "text/css" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>My Portfolio</h1>
+
+  <nav>
+    <button id="menu-toggle">☰</button>
+    <ul id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="videoDemo.html">Video Demo</a></li>
+      <li><a href="siteReport.html">Site Report</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="home">
+  <section>
+    <h2>Hi, I'm Asim Thapa</h2>
+    <p>
+      Welcome to my portfolio website. This site showcases my learning
+      journey in web development using HTML, CSS, and GitHub.
+    </p>
+  </section>
+
+  <section class="skills">
+    <div>HTML5</div>
+    <div>CSS Grid</div>
+    <div>Responsive Design</div>
+    <div>Git & GitHub</div>
+  </section>
+</main>
+
+
+<footer>
+  <p>© 2026 Asim Thapa | GitHub | Email</p>
+</footer>
+
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const links = document.getElementById("nav-links");
+
+  toggle.addEventListener("click", () => {
+    links.classList.toggle("show");
+  });
+</script>
+
+</body>
+</html>
