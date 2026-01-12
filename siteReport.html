@@ -3,28 +3,146 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Site Report | My Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>My Portfolio</h1>
+  <h1>My_Portfolio.</h1>
 
   <nav>
-    <button id="menu-toggle">☰</button>
+    <button id="menu-toggle" aria-label="Toggle navigation menu">☰</button>
     <ul id="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="project.html">Projects</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="videoDemo.html">Video Demo</a></li>
-      <li><a href="siteReport.html">Site Report</a></li>
+      <li><a href="siteReport.html" class="active">Site Report</a></li>
     </ul>
   </nav>
 </header>
 
-<main>
-  <!-- PAGE CONTENT GOES HERE -->
+<main class="site-report-container" style="max-width: 1000px; margin: 2rem auto; padding: 1rem;">
+
+  <section>
+    <h2>Site Report – CSY1063 Web Development (AS1)</h2>
+
+    <p>
+      This portfolio website was developed as part of the CSY1063 Web Development module
+      to demonstrate my understanding of client-side web technologies using HTML, CSS,
+      and GitHub. The main aim of the project was to design and implement a responsive,
+      multi-page portfolio website that follows modern web standards and best practices.
+    </p>
+
+    <p>
+      During the development process, I learned the importance of using semantic HTML
+      elements such as <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>,
+      <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and
+      <code>&lt;footer&gt;</code> to improve accessibility and structure. Initially,
+      structuring the layout correctly was challenging, especially when managing navigation
+      and page consistency, but this improved as I gained more experience.
+    </p>
+
+    <p>
+      The website consists of five pages: Home, Projects, Contact, Video Demonstration,
+      and Site Report. A consistent navigation menu is used across all pages, with a
+      hamburger menu implemented for mobile devices using JavaScript. Media queries were
+      applied to ensure the website adapts correctly to smaller screen sizes.
+    </p>
+
+    <p>
+      For layout design, CSS Grid and Flexbox were used throughout the website. The Home
+      and Projects pages use different grid layouts to demonstrate flexibility and design
+      skills as required by the assignment. A dark-themed header with blue accent colours
+      was chosen to give the website a modern and professional appearance. Subtle hover
+      animations were added to buttons and cards to enhance the user experience.
+    </p>
+
+    <p>
+      Debugging played a major role in the development process. Common issues included
+      layout alignment problems, responsive design bugs, and navigation visibility on
+      mobile devices. These issues were resolved using browser developer tools and
+      validation services. All HTML and CSS files were validated using W3C validation tools.
+    </p>
+
+    <p>
+      Version control was managed using GitHub, with regular commits made throughout the
+      development process. This helped track progress and manage changes efficiently.
+      A video demonstration explaining the website structure, design decisions, and CSS
+      concepts used is included on the Video Demo page.
+    </p>
+
+    <p>
+      Overall, this project significantly improved my understanding of web development
+      fundamentals and gave me hands-on experience in designing, coding, testing, and
+      documenting a responsive portfolio website.
+    </p>
+  </section>
+
+  <section>
+    <h3>Video Demonstration</h3>
+    <p>
+      Video URL:
+      <a href="https://www.youtube.com/watch?v=nwe7G5HZFVo" target="_blank">
+        https://www.youtube.com/watch?v=nwe7G5HZFVo
+      </a>
+    </p>
+  </section>
+
+<section class="validation-section">
+  <h2>HTML & CSS Validation</h2>
+
+  <p>
+    All HTML pages and the CSS stylesheet for this portfolio website were
+    validated using the official W3C validation tools. Validation was carried
+    out to ensure that the code follows modern web standards, improves browser
+    compatibility, and avoids structural or syntax errors.
+  </p>
+
+  <h3>HTML Validation Results</h3>
+
+  <figure>
+    <img src="index.png" alt="W3C HTML validation result for Home page">
+    <figcaption>Figure 1: HTML validation result for index.html (No errors found)</figcaption>
+  </figure>
+
+  <figure>
+    <img src="projects.png" alt="W3C HTML validation result for Projects page">
+    <figcaption>Figure 2: HTML validation result for project.html (No errors found)</figcaption>
+  </figure>
+
+  <figure>
+    <img src="contact.png" alt="W3C HTML validation result for Contact page">
+    <figcaption>Figure 3: HTML validation result for contact.html (No errors found)</figcaption>
+  </figure>
+
+  <figure>
+    <img src="VideoDemo.png" alt="W3C HTML validation result for Video Demo page">
+    <figcaption>Figure 4: HTML validation result for videoDemo.html (No errors found)</figcaption>
+  </figure>
+
+  <figure>
+    <img src="siteReport.png" alt="W3C HTML validation result for Site Report page">
+    <figcaption>Figure 5: HTML validation result for siteReport.html (No errors found)</figcaption>
+  </figure>
+
+  <h3>CSS Validation Result</h3>
+
+  <figure>
+    <img src="style.png" alt="W3C CSS validation result">
+    <figcaption>Figure 6: CSS validation result for style.css (CSS Level 3 + SVG, No errors found)</figcaption>
+  </figure>
+
+  <p>
+    The successful validation of all files confirms that semantic HTML5
+    elements were used correctly and that the CSS follows W3C standards.
+    This contributes to accessibility, maintainability, and responsive
+    behaviour across different devices and browsers.
+  </p>
+</section>
+
+
 </main>
 
 <footer>
